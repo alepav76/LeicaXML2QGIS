@@ -8,3 +8,5 @@ File Selection: It uses the standard QGIS file dialog to allow the user to selec
 Data Processing: Upon selection, it calls an external function (extract_and_display_points) to parse the LandXML data, specifically extracting point coordinates, and then displays these points in QGIS.
 
 Error Handling: It includes basic error handling with pop-up messages to inform the user of success or any issues encountered during the file processing. The success message incorrectly indicates KML generation (KML generato), but the core function is the extraction and display of points from the LandXML file in QGIS.
+
+Authors: Alessandro Pavan, Michele Potleca
